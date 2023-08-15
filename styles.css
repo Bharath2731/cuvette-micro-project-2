@@ -9,8 +9,7 @@
     top: 29vh;
     right: -1.3vw;
     padding: 20px;
-    /* overflow-x: hidden; Note: for position sticky to work there should not be any x-overflow ,so that is why i added x-overflow to body insted of adding *{globally} */
-
+    /* overflow-x: hidden; Note: for position sticky to work there should not be any x-overflow ,so that is why i added x-overflow to body insted of adding *{globally} , can be done also by using float property*/
 }
 body{
     width: 100vw;
@@ -171,7 +170,6 @@ li{
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
-
 }
 .last{
     width: 85vw;
